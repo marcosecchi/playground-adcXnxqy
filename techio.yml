@@ -1,4 +1,48 @@
-title: Custom Template
+title: "Tutorial Unity3D e Fungus: PickUps"
 plan:
-- title: Welcome
-  statement: markdowns/welcome.md
+- title: Presentazione
+  description: Introduzione al Tutorial
+  plan:
+  - title: Benvenuti!
+    statement: markdowns/welcome.md
+- title: Prototipazione della Scena
+  description: Creare una scena per l'applicazione
+  plan:
+  - title: Introduzione
+    statement: markdowns/lesson01/01-intro.md
+  - title: Setup
+    statement: markdowns/lesson01/02-setup.md
+  - title: Creazione della Scena
+    statement: markdowns/lesson01/03-scene-creation.md
+  - title: Aggiungere un Flowchart
+    statement: markdowns/lesson01/04-add-flowchart.md
+  - title: Provare la Scena
+    statement: markdowns/lesson01/05-test-scene.md
+- title: Creare dei PickUp Coins
+  description: Raccogliere Oggetti in Scena
+  plan:
+  - title: Introduzione
+    statement: markdowns/lesson02/01-intro.md
+  - title: Creazione del GameObject
+    statement: markdowns/lesson02/02-gameobject-creation.md
+  - title: Controllare la Logica del PickUp
+    statement: markdowns/lesson02/03-pickup-logic.md
+  - title: Creare il Prefab
+    statement: markdowns/lesson02/04-create-prefab.md
+  - title: Provare la Scena
+    statement: markdowns/lesson02/06-test-scene.md
+- title: Tenere Traccia dei Punti
+  description: Come registrare i punti raccolti e visualizzarli
+  plan:
+  - title: Introduzione
+    statement: markdowns/lesson03/01-intro.md
+  - title: Comunicare tra Diversi Flowchart
+    statement: markdowns/lesson03/02-flowchart-communication.md
+  - title: Spedire un Messaggio
+    statement: markdowns/lesson03/03-send-message.md
+  - title: Rimanere in Ascolto di Un Messaggio
+    statement: markdowns/lesson03/04-message-received.md
+  - title: Tenere Traccia dei Punti
+    statement: markdowns/lesson03/05-tracking-points.md
+  - title: Provare la Scena
+    statement: markdowns/lesson03/06-test-scene.md
