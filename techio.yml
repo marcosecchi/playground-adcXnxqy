@@ -1,48 +1,48 @@
-title: "Tutorial Unity3D e Fungus: PickUps"
+title: "Unity3D and Fungus Tutorial: PickUps"
 plan:
-- title: Presentazione
-  description: Introduzione al Tutorial
+- title: Introduction
+  description: Tutorial Introduction
   plan:
-  - title: Benvenuti!
+  - title: Welcome!
     statement: markdowns/welcome.md
-- title: Prototipazione della Scena
-  description: Creare una scena per l'applicazione
+- title: Scene Prototyping
+  description: Creating a scene for the game
   plan:
-  - title: Introduzione
+  - title: Introduction
     statement: markdowns/lesson01/01-intro.md
   - title: Setup
     statement: markdowns/lesson01/02-setup.md
-  - title: Creazione della Scena
+  - title: Creating the Scene
     statement: markdowns/lesson01/03-scene-creation.md
-  - title: Aggiungere un Flowchart
+  - title: Adding a Flowchart
     statement: markdowns/lesson01/04-add-flowchart.md
-  - title: Provare la Scena
+  - title: Testing the Scene
     statement: markdowns/lesson01/05-test-scene.md
-- title: Creare dei PickUp Coins
-  description: Raccogliere Oggetti in Scena
+- title: Create the PickUp Coins
+  description: Collecting Objects in the Scene
   plan:
-  - title: Introduzione
+  - title: Introduction
     statement: markdowns/lesson02/01-intro.md
-  - title: Creazione del GameObject
+  - title: Creating the GameObject
     statement: markdowns/lesson02/02-gameobject-creation.md
-  - title: Controllare la Logica del PickUp
+  - title: Managing the PickUp Logic
     statement: markdowns/lesson02/03-pickup-logic.md
-  - title: Creare il Prefab
+  - title: Creating the Prefab
     statement: markdowns/lesson02/04-create-prefab.md
-  - title: Provare la Scena
+  - title: Testing the Scene
     statement: markdowns/lesson02/06-test-scene.md
-- title: Tenere Traccia dei Punti
+- title: Tracking Points
   description: Come registrare i punti raccolti e visualizzarli
   plan:
-  - title: Introduzione
+  - title: Introduction
     statement: markdowns/lesson03/01-intro.md
-  - title: Comunicare tra Diversi Flowchart
+  - title: Flowchart Communication
     statement: markdowns/lesson03/02-flowchart-communication.md
-  - title: Spedire un Messaggio
+  - title: Sending a Message
     statement: markdowns/lesson03/03-send-message.md
-  - title: Rimanere in Ascolto di Un Messaggio
+  - title: Listening for a Message
     statement: markdowns/lesson03/04-message-received.md
-  - title: Tenere Traccia dei Punti
+  - title: Tracking Points
     statement: markdowns/lesson03/05-tracking-points.md
-  - title: Provare la Scena
+  - title: Testing the Scene
     statement: markdowns/lesson03/06-test-scene.md
