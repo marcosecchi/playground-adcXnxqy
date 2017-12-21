@@ -8,6 +8,6 @@ Click the _Play_ button in the toolbar just to be sure everything is working fin
 
 Save the scene so your work won't be lost.
 
-## Project download
+## Project Download
 
 You can download the complete lesson files here: [Tech.io Fungus 3D Tutorial](https://github.com/marcosecchi/techio-tutorial-fungus-pickups/archive/part_01.zip).
