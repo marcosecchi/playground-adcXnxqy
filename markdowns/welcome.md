@@ -1,20 +1,18 @@
-# Tutorial - Unity3D e Fungus
+# Tutorial - Unity3D and Fungus
 
-Questa serie di lezioni è mirata all'utilizzo di [Unity3D](https://unity3d.com/) con [Fungus](http://fungusgames.com/) in un ambiente 3D.
+These lessons are aimed at using [Unity3D](https://unity3d.com/) with [Fungus](http://fungusgames.com/) in a 3D environment.
 
-> Per domande, osservazioni e/o segnalazioni, mi trovate al seguente indirizzo: [marcosecchi.it](http://marcosecchi.it)
+>For questions, bug reports and _similia_ you can find me here: [marcosecchi.it](http://marcosecchi.it)
 
-## Prerequisiti
+## Prerequisites
 
-E' richiesta l'installazione di [Unity3D](https://store.unity.com/?_ga=2.175184613.639057983.1511186465-253114653.1489499620) sul proprio computer ed una conoscenza, anche base, dello strumento.
+For these lessons you will need [Unity3D](https://store.unity.com/?_ga=2.175184613.639057983.1511186465-253114653.1489499620) installed on your computer.
 
-Durante la lezione, farò riferimento a [Fungus](http://fungusgames.com/), una estensione open-source per Unity3D. Si consiglia di dare una rapida occhiata ai video tutorial che, pur non essendo necessari ai fini del completamento della lezione stessa, sono comunque consigliati per avere una visione di insieme di cosa può fare lo strumento.
+During the lessons I'll use [Fungus](http://fungusgames.com/), an open-source plugin for Unity3D. My advice is [to follow the video tutorials](http://fungusdocs.snozbot.com/tutorial_videos.html): they are not mandatory, but you will find them very helpful for a basic knowledge of the tool.
 
-> La versione di Unity utilizzata è la **2017.1.1f1**, mentre quella di Fungus è la **3.7**. Gli esempi non sono compatibili con versioni precedenti di Fungus, perché utilizzano delle funzionalità introdotte in questo rilascio.
+> The Unity version used for the tutorial is **2017.1.1f1**, while the Fungus version is **3.7** (the axeples are not compatible with previous versione of Fungus).
 
-## Elenco delle Lezioni
+## Italian Version
 
-1. [Prototipare una Scena](https://tech.io/playgrounds/10655/tutorial-unity3d-e-fungus-pickups/introduzione)
-1. [Creare un Pickup Coin](https://tech.io/playgrounds/10655/tutorial-unity3d-e-fungus-pickups/introduzione-2)
-1. [Tenere Traccia dei Punti](https://tech.io/playgrounds/10655/tutorial-unity3d-e-fungus-pickups/introduzione-3)
+An italian translation of this tutorial can be found here: [Tutorial - Unity3D e Fungus](https://tech.io/playgrounds/10655/tutorial-unity3d-e-fungus-pickups/)
 
