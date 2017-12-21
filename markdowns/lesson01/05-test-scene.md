@@ -1,13 +1,13 @@
-# Provare la Scena
+# Testing the Scene
 
-Lanciamo il _Play_ per sincerarci che tutto funzioni a dovere.
+Click the _Play_ button in the toolbar just to be sure everything is working fine.
 
-![Testare la Scena](../../images/lesson01/pic19_test_scene.png "Testare la Scena")
+![Testing the Scene](../../images/lesson01/pic19_test_scene.png "Testing the Scene")
 
-## Salvare la Scena!
+## Save the scene!
 
-Salviamo la infine scena per utilizzarla nelle lezioni future.
+Save the scene so your work won't be lost.
 
-## Progetto Completo
+## Project download
 
-E' possibile scaricare il progetto completo di questa lezione: [Tech.io Fungus 3D Tutorial](https://github.com/marcosecchi/techio-tutorial-fungus-pickups/archive/part_01.zip).
+You can download the complete lesson files here: [Tech.io Fungus 3D Tutorial](https://github.com/marcosecchi/techio-tutorial-fungus-pickups/archive/part_01.zip).
