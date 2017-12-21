@@ -1,33 +1,33 @@
-# Aggiungere un Flowchart
+# Adding a Flowchart
 
-Andremo ora ad aggiungere un [Flowchart](http://files.snozbot.com/games/fungus/docs/flowcharts/index.html) di Fungus, che andremo ad utilizzare nelle lezioni successive, assieme ad un campo di testo che utilizzeremo per visualizzare una serie di messaggi.
+Let's add a Fungus [Flowchart](http://files.snozbot.com/games/fungus/docs/flowcharts/index.html) which we will use in the next chapters, along with a text element (for displaying messages).
 
-## Creazione di un Flowchart 
+## Flowchart Creation 
 
-Dal menu _Tools > Fungus > Create_ selezionare _Flowchart_, che aggiungerà un _Flowchart_ in scena. Selezioniamolo nella _Hierarchy_ e clicchiamo sul pulsante _Open Flowchart Window_: verrà aperto il pannello corrispondente.
+From menu _Tools > Fungus > Create_ select _Flowchart_, which will add a _Flowchart_ in the scene. Select it in the _Hierarchy_ panel and click the _Open Flowchart Window_ button: the corresponding panel will pop up.
 
-Rinominiamo l'oggetto come _MainFlowchart_ dall'_Inspector_.
+Rename the _Flowchart_ as _MainFlowchart_ in the _Inspector_ panel.
 
-![Aggiunta del Flowchart](../../images/lesson01/pic14_create_flowchart.png "Aggiunta del Flowchart")
+![Adding the Flowchart](../../images/lesson01/pic14_create_flowchart.png "Adding the Flowchart")
 
-### Rinominare il Blocco 'Start'
+### Renaming the 'Start' Block
 
-Selezioniamo, all'interno del _Flowchart_, il blocco (l'unico, al momento) _NewBlock_ e, dall'_Inspector_ rinominiamolo _Start_.
+Inside the _Flowchart_, select _NewBlock_ and, in the _Inspector_, rename it _Start_.
 
-![Rinominare il Blocco](../../images/lesson01/pic15_rename_block.png "Rinominare il Blocco")
+![Renaming the Block](../../images/lesson01/pic15_rename_block.png "Renaming the Block")
 
-## Creazione di un Campo di Testo
+## Creating a Text Element
 
-Dal menu _GameObject > UI_ selezionare _Text_, che genererà un campo di testo nella scena. Selezionatelo e modificatelo secondo i vostri gusti dal pannello dell'Inspector. Il mio ha l'aspetto nella figura riportata in seguito.
+From the menu _GameObject > UI_ select _Text_, and a text element will be generated in the scene. select it and give it a look you like (mine is shown below).
 
-![Aggiungere il Testo](../../images/lesson01/pic16_add_text.png "Aggiungere il Testo")
+![Adding the Text](../../images/lesson01/pic16_add_text.png "Adding the Text")
 
-## Scrivere un messaggio di Benvenuto
+## Show a Welcome Message
 
-Andremo ora ad aggiungere un messaggio di benvenuto al testo, per sincerarci che tutto funzioni correttamente. Selezioniamo il blocco _Start_ all'interno del nostro _Flowchart_ e, tramite il pulsante _+_ nell'_Inspector_ aggiungiano il comando _UI > Set Text_.
+Let's add a welcome message to the text. Select the _Start_ block in the _Flowchart_ and click the _+_ button, selecting the _UI > Set Text_ command.
 
-![Aggiungere il Comando SetText](../../images/lesson01/pic17_add_text_command.png "Aggiungere il Comando SetText")
+![Adding the SetText Command](../../images/lesson01/pic17_add_text_command.png "Adding the SetText Command")
 
-Selezioniamo il comando e trasciniamo il gameobejct _Text_ dalla _Hierarchy_ nel campo _Target Text Object_. Aggiungiamo infine nel campo _Text_ un messaggio di benvenuto.
+Select the just created command and drag the _Text_ gameobject from the _Hierarchy_ panel into the _Target Text Object_ field. Lastly, add a welcome message in the _Text_ field.
 
-![Aggiungere il GameObject Text](../../images/lesson01/pic18_add_text_gameobject.png "Aggiungere il GameObject Text")
+![Adding the GameObject Text](../../images/lesson01/pic18_add_text_gameobject.png "Adding the GameObject Text")
