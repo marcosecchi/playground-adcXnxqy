@@ -1,52 +1,51 @@
-# Creazione della Scena
+# Creating the Scene
 
-Andremo ora a creare un semplice prototipo di scena, che servirà come base per le lezioni successive.
+We are now going to create a simple scene prototype for the tutorial.
 
-## Creazione dell'Ambiente
+## Creating the Environment
 
-Per prima cosa andremo ad aggiungere alcuni elementi al nostro scenario: datta cartella _Standard Assets > Prototyping > Prefabs_ trascinare il prefab _FloorPrototype64x01x64_ nella finestra _Hierarchy_, per creare un pavimento.
+First of all let's add some elements in the scene: from the _Standard Assets > Prototyping > Prefabs_ folder drag _FloorPrototype64x01x64_ in the _Hierarchy_.
 
-![Aggiunta del Pavimento](../../images/lesson01/pic05_floor_creation_01.png "Aggiunta del Pavimento")
+![Add a Floor](../../images/lesson01/pic05_floor_creation_01.png "Add a Floor")
 
-![Aggiunta del Pavimento](../../images/lesson01/pic06_floor_creation_02.png "Aggiunta del Pavimento")
+![Add a Floor](../../images/lesson01/pic06_floor_creation_02.png "Add a Floor")
 
-Aggiungiamo ora, sempre dalla stessa cartella dei prefab, alcuni elementi, per rendere la scena meno banale. La mia scena risulterà come di seguito, ma siete ovviamente liberi di creare l'ambiente a voi più congeniale!
+Let's add, from the same prefab folder, some elements. You are free to add whatever you like, my scene looks like the one in the image.
 
-![La Scena](../../images/lesson01/pic07_scene.png "La Scena")
+![The Scene](../../images/lesson01/pic07_scene.png "The Scene")
 
-Per comodità, creiamo un gameobject vuoto (_GameObject > Create Empty_), che rinominiamo (nell'_Inspector_) _Environment_ e dove andremo a spostare tutti gli elementi dell'ambiente.
+Let's now add an empty gameobject (_GameObject > Create Empty_), and rename it (in the _Inspector_) _Environment_. We will move inside all the environment elements.
 
-![La Scena](../../images/lesson01/pic08_scene_grouped.png "La Scena")
+![The Scene](../../images/lesson01/pic08_scene_grouped.png "The Scene")
 
-## Aggiunta del Personaggio (Third Person Controller)
+## Add a Character (Third Person Controller)
 
-Dalla cartella _Standard Assets > Characters > ThirdPersonCharacter > Prefabs_ trasciniamo direttamente in scena il _prefab_ chiamato _ThirdPersonController_.
+From the _Standard Assets > Characters > ThirdPersonCharacter > Prefabs_ folder, add a _ThirdPersonController_ _prefab_.
 
-![Il Third Person Character](../../images/lesson01/pic09_character.png "Il Third Person Character")
+![The Third Person Character](../../images/lesson01/pic09_character.png "The Third Person Character")
 
-Selezionando _ThirdPersonController_ in _Hierarchy_, aprire il menu _Tag_ e scegliere _Player_.
+Select _ThirdPersonController_ from the _Hierarchy_ panel, and in the _Inspector_ open the _Tag_ menu and choose _Player_.
 
-![Aggiungere un Tag](../../images/lesson01/pic20_add_tag.png "Aggiungere un Tag")
+![Add a Tag](../../images/lesson01/pic20_add_tag.png "Add a Tag")
 
+## Change the Camera
 
-## Sostituzione della Camera
+Select the _Main Camera_ in the scene and disable (or delete) it. The _Game_ panel should now show a _No cameras rendering_ message).
 
-Selezioniamo la _Main Camera_ in scena, e disabilitiamola tramite il checkbox di fianco al nome, nell'_Inspector_ (La finestra _Game_ dovrebbe mostrare il messaggio _No cameras rendering_).
+![The Main Camera disabled](../../images/lesson01/pic10_disable_camera.png "The Main Camera disabled")
 
-![La Main Camera disabilitata](../../images/lesson01/pic10_disable_camera.png "La Main Camera disabilitata")
+From the _Standard Assets > Cameras > Prefabs_ folder, drag the in the _Hierarchy_ panel the _MultipurposeCameraRig_ prefab.
 
-Dalla cartella _Standard Assets > Cameras > Prefabs_, trasciniamo nella finestra _Hierarchy_ il prefab _MultipurposeCameraRig_.
+![Adding the Camera](../../images/lesson01/pic11_add_camera.png "Adding the Camera")
 
-![Aggiungere la Camera](../../images/lesson01/pic11_add_camera.png "Aggiungere la Camera")
+> The _MultipurposeCameraRig_ prefab includes some additional features that will let the camera follow a target.
 
-> Il prefab MultipurposeCameraRig contiene una camera molto più flessibile di quella fissa, che seguirà il proprio target ovunque vada.
+As a last step, select _MultipurposeCameraRig_ in the _Hierarchy_ panel and drag the _ThirdPersonController_ from the _Hierarchy_ panel (not from the _Project_!) in the _Target_ field of the _Auto Cam_ component.
 
-Come ultimo passo, selezionare _MultipurposeCameraRig_ nella _Hierarchy_ e trascinare il _ThirdPersonController_ dalla _Hierarchy_ (non dal pannello _Project_!) nel campo _Target_ del componente _Auto Cam_.
+![Adding the Camera](../../images/lesson01/pic12_add_target.png "Adding the Camera")
 
-![Aggiungere la Camera](../../images/lesson01/pic12_add_target.png "Aggiungere la Camera")
+## Test the Scene
 
-## Provare la Scena
-
-Sarà ora possibile provare la scena, tramite il pulsante _Play_ nella barra degli strumenti.
+You can now test the scene by clicking the _Play_ button in the toolbar.
 
 ![Play](../../images/lesson01/pic13_play_scene.png "Play")
