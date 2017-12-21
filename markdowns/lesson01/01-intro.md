@@ -1,10 +1,10 @@
-# Lezione 1: Prototipare la Scena
+# Lesson 1: Scene Prototyping
 
-Questa lezione serve come punto di partenza per la creazione di una scena ed il suo utilizzo per le lezioni successive.
+We are going to create a basic scene, that will be used in the following lessons.
 
-> Per domande, osservazioni e/o segnalazioni, mi trovate al seguente indirizzo: [marcosecchi.it](http://marcosecchi.it)
+>For questions, bug reports and _similia_ you can find me here: [marcosecchi.it](http://marcosecchi.it)
 
-## Progetto Completo della Lezione
+## Complete Lesson Project
 
-E' possibile scaricare il progetto completo di questa lezione: [Tech.io Fungus 3D Tutorial](https://github.com/marcosecchi/techio-tutorial-fungus-pickups/archive/part_01.zip).
+You can download the complete lesson project here: [Tech.io Fungus 3D Tutorial](https://github.com/marcosecchi/techio-tutorial-fungus-pickups/archive/part_01.zip).
 

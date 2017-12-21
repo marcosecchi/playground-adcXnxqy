@@ -1,35 +1,35 @@
 # Setup
 
-## Creazione di un nuovo progetto
+## Creating a new project
 
-Prima di tutto è necessario creare un nuovo progetto con Unity che, nel mio caso, ho chiamato _Fungus3D_.
+First of all, you'll need to create a new Unity Project (in my case, I named it  _Fungus3D_).
 
-![Creazione del Progetto](../../images/lesson01/pic01_create_project.png "Creazione del Progetto")
+![Creating the Project](../../images/lesson01/pic01_create_project.png "Creating the Project")
 
-## Importare gli Asset
+## Importing Assets
 
-### Importare gli Standard Assets
+### Importing the Standard Assets
 
-Dal menu _Assets > Import Package_, importare i seguenti pacchetti:
+From the menu _Assets > Import Package_, import the following packages:
 
 * **Cameras**
 * **Characters**
 * **Prototyping**
 
-Da notare che verranno caricati altri pacchetti correlati come, ad esempio **Utility**.
+Note that some additional packages will be added, for instance **Utility**.
 
-![Importazione degli Standard Assets](../../images/lesson01/pic02_standard_assets.png "Importazione degli Standard Assets")
+![Importing Standard Assets](../../images/lesson01/pic02_standard_assets.png "Importing Standard Assets")
 
-### Importare Fungus
+### Importing Fungus
 
-Dopo aver aperto l'_Asset Store_ (_Window > Asset Store_), cercare Fungus e scaricarlo.
+Open the _Asset Store_ (_Window > Asset Store_), search for Fungus and download it.
 
-![Fungus nell'Asset Store](../../images/lesson01/pic03_fungus_asset_store.png "Fungus nell'Asset Store")
+![Fungus in the Asset Store](../../images/lesson01/pic03_fungus_asset_store.png "Fungus in the Asset Store")
 
-> E' possibile [scaricare l'estensione anche da browser](https://www.assetstore.unity3d.com/#!/content/34184/directpurchase?aid=1011lHJn) (che, a sua volta, aprirà automaticamente Unity3D).
+> You can also [download the plugin from the browser](https://www.assetstore.unity3d.com/#!/content/34184/directpurchase?aid=1011lHJn) (Unity3D will be opened and the download process will start).
 
-Importare solamente _Fungus_ (e non _Fungus Examples_).
+Import just _Fungus_ (not _Fungus Examples_).
 
-![Importazione di Fungus](../../images/lesson01/pic04_fungus_import.png "Importazione di Fungus")
+![Importing Fungus](../../images/lesson01/pic04_fungus_import.png "Importing Fungus")
 
-Siete ora pronti a creare il prototipo della scena.
+You are now ready to create a scene prototype.
