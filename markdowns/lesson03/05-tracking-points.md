@@ -1,4 +1,4 @@
-# Tenere Traccia dei Punti
+# Tracking Points
 
 Dobbiamo ora andare a visualizzare in scena il numero di punti totalizzati per la raccolta delle monete.
 

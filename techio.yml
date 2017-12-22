@@ -40,7 +40,7 @@ plan:
     statement: markdowns/lesson03/02-flowchart-communication.md
   - title: Sending a Message
     statement: markdowns/lesson03/03-send-message.md
-  - title: Listening for a Message
+  - title: Receiving a Message
     statement: markdowns/lesson03/04-message-received.md
   - title: Tracking Points
     statement: markdowns/lesson03/05-tracking-points.md

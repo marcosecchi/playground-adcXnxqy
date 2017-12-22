@@ -10,7 +10,7 @@ Add a _Flow > Send Message_ command and move it just before _Destroy_.
 
 > If the command is placed after _Destroy_, it won't be executed as the _Flowchart_ will be destroyed before.
 
-From the _Message Target_ menu, select _All Flowcharts_ (so the command can be 'listened' from external _Flowchart_s) and, in the _Message_ field, insert _coin-collected_.
+From the _Message Target_ menu, select _All Flowcharts_ (so the command can be 'listened' from external _Flowchart_s) and, in the _Message_ field, insert 'coin-collected'.
 
 > Pay attention: the message text is case sensitive!
 
