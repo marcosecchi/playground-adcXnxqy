@@ -1,38 +1,38 @@
-# Creazione del GameObject
+# Creating the GameObject
 
-## Aprire la Scena
+## Open tht Scene
 
-Per prima cosa andiamo ad aprire la scena che abbiamo creato nella lezione precedente.
+First of all, let's open the scene we worked on last lesson (or we downloaded).
 
-![La Scena di Partenza](../../images/lesson02/pic01_starting_scene.png "La Scena di Partenza")
+![The Starting Scene](../../images/lesson02/pic01_starting_scene.png "The Starting Scene")
 
-## Creare la Moneta
+## Creating the Coin
 
-Creiamo un GameObject vuoto (_GameObject > CreateEmpty_), posizioniamolo in _(0, 0, 0)_ e rinominiamolo _PickUpCoin_.
+Let's create and empty gameobject (_GameObject > CreateEmpty_), posizioniamolo in _(0, 0, 0)_ and rename it _PickUpCoin_.
 
-![Il GameObject vuoto](../../images/lesson02/pic02_empty_gameobject.png "Il GameObject vuoto")
+![The Empty GameObject](../../images/lesson02/pic02_empty_gameobject.png "The Empty GameObject")
 
-Dalla cartella _Standard Assets > Prototyping > Models_ trasciniamo _PickupPrototype01x01x01_ all'interno di _PickUpCoin_, in modo tale che sia un suo _Child_.
+From the _Standard Assets > Prototyping > Models_ folder, drag _PickupPrototype01x01x01_ inside _PickUpCoin_, so that it's a child element.
 
-![L'aggiunta della Mesh](../../images/lesson02/pic03_add_coin_mesh.png "L'aggiunta della Mesh")
+![Adding the Mesh](../../images/lesson02/pic03_add_coin_mesh.png "Adding the Mesh")
 
-> Non stiamo utilizzando il prefab del coin perché ci interessa solamente il modello. Il _Collider_ lo inseriremo successivamente.
+> We are not adding the coin prefab because we are only interested in the model. We will add the _Collider_ later on.
 
-Selezioniamo _PickupPrototype01x01x01_, rinominiamolo _Coin_, posizioniamolo in _(0, 1, 0)_ e scaliamolo al 30% _(0.3, 0.3, 0.3)_.
+Select _PickupPrototype01x01x01_, and rename it _Coin_, position it in _(0, 1, 0)_ and scale it to 30% _(0.3, 0.3, 0.3)_.
 
-Sempre con il _Coin_ selezionato, nell'Inspector clicchiamo il pulsante _Add Component_ e selezioniamo _Scripts > UnityStandardAssets.Utility > AutoMoveAndRotate_ per aggiungere un effetto di rotazione alla moneta.
+With _Coin_ selected, click _Add Component_ in the _Inspector_ panel and select  _Scripts > UnityStandardAssets.Utility > AutoMoveAndRotate_ to add a rotation effect to the coin.
 
-Nel Campo _Rotate Degrees Per Second_ modifichiamo il valore _Y_ a 100.
+Open the _Rotate Degrees Per Second_ field and change _Y_ to 100.
 
-Come ultimo passo, cambiamo il materiale del _Mesh Renderer_ da _Pink Smooth_ a _Yellow Smooth_.
+As a last step, change the _Mesh Renderer_ from _Pink Smooth_ to _Yellow Smooth_.
 
-Il risultato finale dovrebbe essere come mostrato in figura.
+The final result should be similar to the one shown in the image below.
 
-![Migliorare la Moneta](../../images/lesson02/pic04_improve_coin.png "Migliorare la Moneta")
+![Improving the Coin](../../images/lesson02/pic04_improve_coin.png "Improving the Coin")
 
-Se proviamo a lanciare la scena, dovremmo vedere la moneta ruotare all'infinito.
+Playing the scene should start the coin rotation.
 
-> Salvare la Scena.
+> Save the scene.
 
 ## Aggiungere il Trigger
 

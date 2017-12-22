@@ -1,16 +1,16 @@
-# Controllare la Logica del PickUp
+# Managing the PickUp Logic
 
-Andremo ora ad implementare il sistema che permetterà al coin di essere raccolto dal nostro personaggio. Per fare questo, utilizzeremo un [Flowchart](http://files.snozbot.com/games/fungus/docs/flowcharts/index.html) di Fungus, che però sarà inserito all'interno del nostro _PickUpCoin_.
+Let's now add some logic that will let our character pick up the coin. We are going to use a Fungus [Flowchart](http://files.snozbot.com/games/fungus/docs/flowcharts/index.html), that will be placed inside the _PickUpCoin_ element.
 
-## Aggiungere un Flowchart
+## Adding a Flowchart
 
-Selezioniamo il GameObject _PickUpCoin_, clicchiamo su _Add Component_ e selezioniamo _Scripts > Fungus > Flowchart_: clicchiamo poi su _Open Flowchart Window_ per visualizzare il _Flowchart_ in questione.
+Select _PickUpCoin_, click on _Add Component_ and select _Scripts > Fungus > Flowchart_: click _Open Flowchart Window_ to show the _Flowchart_.
 
-![Aggiungere il Flowchart al PickUp](../../images/lesson02/pic06_add_flowchart.png "Aggiungere il Flowchart al PickUp")
+![Adding a Flowchart to the PickUp](../../images/lesson02/pic06_add_flowchart.png "Adding a Flowchart to the PickUp")
 
-## Aggiungere il Blocco 'Trigger Enter'
+## Adding a 'Trigger Enter' Block
 
-Creiamo ora un blocco di comandi, tramite il pulsante _+_ nella finestra del _Flowchart_ e rinominiamolo _TriggerEnter_
+Create a command block, by using the _+_ button in the _Flowchart_ window and rename it _TriggerEnter_.
 
 Il blocco deve attivarsi all'evento _MonoBehaviour > Trigger_ (_FireOn > Enter_), cioè quando un elemento in scena entra nel _Trigger_ del GameObject.
 
