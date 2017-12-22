@@ -1,19 +1,19 @@
 # Sending a Message
 
-## Aggiungere il Comando SendMessage al Flowchart
+## Adding a SendMessage Command to the Flowchart
 
-Selezioniamo il prefab PickUpCoin all'interno del nostro progetto ed apriamo il suo _Flowchart_.
+Select the _PickUpCoin_ prefab inside the project and open its _Flowchart_.
 
-> Modificare il prefab ci garantisce che tutti i pickup in scena verranno aggiornati.
+> Modyfing the prefab inside the _Project_ panel has the side effect of modyfing all the connected element in the scene.
 
-Aggiungiamo il comando _Flow > Send Message_ e spostiamolo prima del comando _Destroy_.
+Add a _Flow > Send Message_ command and move it just before _Destroy_.
 
-> Se il comando rimane dopo _Destroy_, non verrà mai eseguito, perché il _Flowchart_ verrà eliminato prima che il comando stesso venga eseguito.
+> If the command is placed after _Destroy_, it won't be executed as the _Flowchart_ will be destroyed before.
 
-Dal menu _Message Target_ selezioniamo _All Flowcharts_ (in modo che il comando possa essere 'ascoltato' anche all'esterno) e, come valore di _Message_, inseriamo _coin-collected_.
+From the _Message Target_ menu, select _All Flowcharts_ (so the command can be 'listened' from external _Flowchart_s) and, in the _Message_ field, insert _coin-collected_.
 
-> Il testo del messaggio è sensibile a minuscole/maiuscole, quindi facciamo attenzione a cosa scriviamo!
+> Pay attention: the message text is case sensitive!
 
-![Spedire il Messaggio](../../images/lesson03/pic01_send_message.png "Spedire il Messaggio")
+![Sending the Message](../../images/lesson03/pic01_send_message.png "Sending the Message")
 
-Tutti i nostri coin in scena dovrebbero ora avere aggiunto il comando _Send Message_.
+All our coin object in the scene should now have the _Send Message_.
