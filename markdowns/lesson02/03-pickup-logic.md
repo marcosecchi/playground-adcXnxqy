@@ -12,19 +12,19 @@ Select _PickUpCoin_, click on _Add Component_ and select _Scripts > Fungus > Flo
 
 Create a command block, by using the _+_ button in the _Flowchart_ window and rename it _TriggerEnter_.
 
-Il blocco deve attivarsi all'evento _MonoBehaviour > Trigger_ (_FireOn > Enter_), cioè quando un elemento in scena entra nel _Trigger_ del GameObject.
+We need the block to become active on the _MonoBehaviour > Trigger_ (_FireOn > Enter_) event, when an element enters in the GameObject _Trigger_.
 
-Imponiamo al _TagFilter_ il valore 1 e, nell'_Element 0_ inseriamo "Player" (attenzione alla maiuscola!), in modo che solamente il Controller (che abbiamo taggato nella lezione precedente come "Player").
+Set the _TagFilter_ field to 1 and, inside _Element 0_ insert "Player" (mind the uppercase!), so that only the Controller (which we tagged as "Player" in the previous lesson) will activate it.
 
-![Aggiungere il Blocco al Flowchart](../../images/lesson02/pic07_add_block.png "Aggiungere il Blocco al Flowchart")
+![Adding a Block](../../images/lesson02/pic07_add_block.png "Adding a Block")
 
-## Aggiungere i Comandi
+## Adding Commands
 
-Siamo ora pronti ad inserire i comandi nel nostro blocco.
+We are now going to add some commands to the block.
 
-### Aggiungere un Audio Usfxr
+### Add an Usfxr Audio
 
-Per prima cosa aggiungiamo il comando _Audio > Play Usfxr Sound_. Nel campo _Settings String_ inseriamo il seguente valore:
+First of all, let's add an _Audio > Play Usfxr Sound_ command. In the _Settings String_ field, add:
 
 ```0,.5,,.0289,.4065,.4227,.3,.4748,,,,,,,,,.5,.5848,,,,,,,,1,,,,,,```
 

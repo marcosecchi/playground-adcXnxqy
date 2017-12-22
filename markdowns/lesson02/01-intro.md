@@ -1,4 +1,4 @@
-# Lezione 2: Creating a Pickup Coin
+# Lesson 2: Creating a Pickup Coin
 
 In this tutorial you'll learn how to create a coin that can picked up by the character: everything will be handled by a [Fungus](http://fungusgames.com/) _Flowchart_.
 

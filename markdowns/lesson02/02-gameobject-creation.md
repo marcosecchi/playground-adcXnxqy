@@ -34,14 +34,14 @@ Playing the scene should start the coin rotation.
 
 > Save the scene.
 
-## Aggiungere il Trigger
+## Add the Trigger
 
-Selezioniamo ora il _parent_ del coin, e cioè _PickUpCoin_: andremo ad aggiungere un _Collider_ in modo da poter attivare un trigger nel momento in cui il nostro personaggio entrerà a contatto con esso.
+Select the coin _parent_ del coin (_PickUpCoin_): we are going to add a _Collider_ so we can activate a trigger when the character enters inside it.
 
-Clicchiamo su _Add Component_ e selezioniamo _Physics > Sphere Collider_. Trasformiamolo in un [Trigger](https://docs.unity3d.com/Manual/CollidersOverview.html) cliccando sul checkbox _Is Trigger_ e, nel campo _Center_ modifichiamo il valore di _Y_ a 1, in modo tale che si posizioni esattamente intorno alla moneta.
+Let's click _Add Component_ and select _Physics > Sphere Collider_: change it in a [Trigger](https://docs.unity3d.com/Manual/CollidersOverview.html) checking the _Is Trigger_ value and, in the _Center_ field, change the _Y_ value to 1, so that it will be in the same position as the coin element.
 
-> La scelta dello _Sphere Collider_ è dovuta al fatto che ben si presta alla forma che produce la moneta mentre ruota.
+> We are using a _Sphere Collider_ as it is pretty good for the ritating coin.
 
-![Migliorare la Moneta](../../images/lesson02/pic05_add_collider.png "Migliorare la Moneta")
+![Improving the Coin](../../images/lesson02/pic05_add_collider.png "Improving the Coin")
 
-Siamo ora pronti ad aggiungere interattività alla nostra moneta.
+We are now ready to add some interactivity the the coin.
