@@ -1,9 +1,9 @@
-# Lezione 2: Creare un Pickup Coin
+# Lezione 2: Creating a Pickup Coin
 
-In questo tutorial impareremo a creare una moneta di tipo _pickup_ (che potrà cioè essere raccolta dal giocatore): il tutto verrà gestito da un _Flowchart_ di [Fungus](http://fungusgames.com/).
+In this tutorial you'll learn how to create a coin that can picked up by the character: everything will be handled by a [Fungus](http://fungusgames.com/) _Flowchart_.
 
-> Per domande, osservazioni e/o segnalazioni, mi trovate al seguente indirizzo: [marcosecchi.it](http://marcosecchi.it)
+>For questions, bug reports and _similia_ you can find me here: [marcosecchi.it](http://marcosecchi.it)
 
-## Prerequisiti
+## Prerequisites
 
-E' possibile scaricare il progetto fino a questo punto, senza seguire le lezioni precedenti: [Tutorial Fungus - Parte 1](https://github.com/marcosecchi/techio-tutorial-fungus-pickups/archive/part_01.zip).
+You can download the complete lesson 1 project here: [Fungus Tutorial - Part 1](https://github.com/marcosecchi/techio-tutorial-fungus-pickups/archive/part_01.zip).
