@@ -28,16 +28,16 @@ First of all, let's add an _Audio > Play Usfxr Sound_ command. In the _Settings 
 
 ```0,.5,,.0289,.4065,.4227,.3,.4748,,,,,,,,,.5,.5848,,,,,,,,1,,,,,,```
 
-> E' possibile creare il proprio effetto sonoro tramite l'editor di effetti di Fungus, selezionando _Fungus > Utilities > Generate usfxr Sound Effects_ (per maggiori informazioni, consultare [la pagina del progetto](https://github.com/zeh/usfxr)).
+> You can create your audio effects using the Fungus integrated editor selecting, selezionando _Fungus > Utilities > Generate usfxr Sound Effects_ (for more info, please check [the project page on GitHub](https://github.com/zeh/usfxr)).
 
-![Aggiungere un Effetto Audio](../../images/lesson02/pic08_add_audio_effect.png "Aggiungere un Effetto Audio")
+![Adding an Audio Effect](../../images/lesson02/pic08_add_audio_effect.png "Adding an Audio Effect")
 
-### Rimuovere il PickUp
+### Destroying the PickUp
 
-Subito dopo l'effetto audio, aggiungiamo il comando _Scripting > Destroy_ e trasciniamo il gameobject _PickUpCoin_ dalla scena nel campo _Target Game Object_.
+Just after the audio effect, add a _Scripting > Destroy_ command and drag the _PickUpCoin_ gameobject from the _Hierarchy_ panel into the _Target Game Object_ field.
 
-![Distruggere il PickUp](../../images/lesson02/pic09_add_destroy.png "Distruggere il PickUp")
+![Destroying the PickUp](../../images/lesson02/pic09_add_destroy.png "Destroying the PickUp")
 
-Se lanciamo la scena e muoviamo il nostro personaggio sulla moneta, dovremmo udire il suono generato e la successiva distruzione della moneta dalla scena.
+Playing the scene and moving the character on the coin, will result in the object being removed from game, just after the audio effect.
 
-Siamo ora pronti a creare un prefab dal nostro pickup.
+You are now ready to create a prefab out of the coin object.
