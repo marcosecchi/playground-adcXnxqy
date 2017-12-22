@@ -1,9 +1,9 @@
-# Comunicazione tra Flowcart
+# Flowchart Communication
 
-Due _Flowchart_ in scena vivono indipendentemente di vita propria: come è possibile quindi farli comunicare tra di loro? In particolare, a noi interessa far sapere al _MainFlowchart_ che una moneta è stata raccolta e questo evento, al momento, è conosciuto solamente dal _Flowchart_ contenuto nella moneta stessa.
+Two _Flowchart_ in a scene are independent, so how can make them communicate? In particular, we need to let the _MainFlowchart_ know that a coin has been picked up, an event that at the moment is known only by the coin _Flowchart_.
 
-# Utilizzo dei Messaggi
+## Using Messages
 
-Il metodo più semplice per comunicare tra due _Flowchart_ è l'utilizzo del comando [Send Flowchart](http://fungusdocs.snozbot.com/flow_commands.html#SendMessage), che permette di spedire un messaggio, che può essere intercettato da un altro blocco all'interno del medesimo _Flowchart_ oppure anche esternamente.
+The quickest way to communicate between _Flowchart_s is the [Send Flowchart](http://fungusdocs.snozbot.com/flow_commands.html#SendMessage) command, that sends a message that can be listened by the same _Flowcart_ or by another one.
 
-Nel nostro caso, la moneta, una volta raccolta, spedirà il messaggio, che verrà raccolto dal _MainFlowchart_, che si occuperà di visualizzare i punti guadagnati.
+In our game, when a coin will be picked up, the corresponding _Flowchart_ will send a message that will be intercepted by the _MainFlowchart_, that will store points gained.

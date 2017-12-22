@@ -1,9 +1,9 @@
-# Lezione 3: Tenere Traccia dei Punti
+# Lesson 3: Tracking Points
 
-In questo tutorial impareremo a tenere traccia dei punti guadagnati raccogliendo le monete realizzate nella lezione precedente. In particolare, si imparerà a fare comunicare due differenti _Flowchart_ itramite messaggi.
+In this lesson you'll learn how to track points gained by picking up coins created in the previous lesson. Additionally, you'll learn how to send messages between different _Flowcharts_.
 
-> Per domande, osservazioni e/o segnalazioni, mi trovate al seguente indirizzo: [marcosecchi.it](http://marcosecchi.it)
+>For questions, bug reports and _similia_ you can find me here: [marcosecchi.it](http://marcosecchi.it)
 
-## Prerequisiti
+## Prerequisites
 
-E' possibile scaricare il progetto fino a questo punto, senza seguire le lezioni precedenti: [Tutorial Fungus - Parte 2](https://github.com/marcosecchi/techio-tutorial-fungus-pickups/archive/part_01.zip).
+You can download the complete lesson 1 project here: [Fungus Tutorial - Part 3](https://github.com/marcosecchi/techio-tutorial-fungus-pickups/archive/part_01.zip).

@@ -1,6 +1,6 @@
-# Spedire un Messaggio
+# Sending a Message
 
-# Aggiungere il Comando SendMessage al Flowchart
+## Aggiungere il Comando SendMessage al Flowchart
 
 Selezioniamo il prefab PickUpCoin all'interno del nostro progetto ed apriamo il suo _Flowchart_.
 

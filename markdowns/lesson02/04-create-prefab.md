@@ -1,15 +1,15 @@
-# Creare un Prefab
+# Creating a Prefab
 
-## Creare il Prefab del PickUp
+## Creating the PickUp Prefab
 
-L'operazione di creazione del prefab è quella standard di Unity3D: basta trascinare l'oggetto dalla _Hierarchy_ nella finestra _Project_.
+Creating the prefab follows the standard Unity procedure: just drag the object from the _Hierarchy_ panel into the _Project_ one.
 
-![Creare il Prefab](../../images/lesson02/pic10_create_prefab.png "Creare il Prefab")
+![Creating the Prefab](../../images/lesson02/pic10_create_prefab.png "Creating the Prefab")
 
-## Aggiungere i Prefab nella Scena
+## Adding Prefab to the Scene
 
-Siamo ora pronti a creare una serie di prefab in scena: ognuno avrà il proprio _Flowchart_ che gestirà l'evento di pickup.
+You can now create a set of coin prefabs in the scene: each one will have its own _Flowchart_ handling the pickup event.
 
-Per comodità, ho raccolto tutti i pickup in un gameobejct chiamato _PickUps_.
+In my case I have also put my coins inside a gameobject named _PickUps_.
 
-![Aggiungere i Prefab](../../images/lesson02/pic11_add_prefabs.png "Aggiungere i Prefab")
+![Adding Prefabs](../../images/lesson02/pic11_add_prefabs.png "Adding Prefabs")
