@@ -13,4 +13,3 @@ Durante la lezione, farò riferimento a [Fungus](http://fungusgames.com/), una e
 ## Contatti
 
 Per domande, osservazioni e/o segnalazioni, mi trovate al seguente indirizzo: [marcosecchi.it](http://marcosecchi.it)
-

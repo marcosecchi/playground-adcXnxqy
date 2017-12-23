@@ -1,40 +1,40 @@
 # Tracking Points
 
-Dobbiamo ora andare a visualizzare in scena il numero di punti totalizzati per la raccolta delle monete.
+Let's show how many points the player is getting for collecting coins.
 
-## Creare le Variabili
+## Creating Variables
 
-Ci servono innanzitutto due variabili per tenere traccia di:
+First of all, we need two variables for tracking:
 
-* quanti punti assegnare ogni volta che si raccoglie una moneta
-* quanti punti totali sono stati accumulati
+* how many points a coin is worth
+* how many points the player has collected
 
-Apriamo il _MainFlowchart_ e, dalla sezione _Variables_, tramite il pulsante _+_, creiamo due variabili di tipo _integer_ che chiameremo, rispettivamente, _PointsPerCoin_ e _TotalPoints_.
-Assegnamo a _PointsPerCoin__ il valore 10.
+Open _MainFlowchart_ and, from the _Variables_ section, click the _+_ button twice, creating two _integer_ variables called _PointsPerCoin_ and _TotalPoints_.
+Assign a value of 10 to _PointsPerCoin_.
 
-![Creare le Variabili](../../images/lesson03/pic04_variables.png "Creare le Variabili")
+![Creating Variables](../../images/lesson03/pic04_variables.png "Creating Variables")
 
-## Aggiornare i Punti 
+## Update Points 
 
-Siamo già in grado di sapere quando una moneta viene raccolta... nello stesso blocco possiamo quindi assegnare i punti corrispondenti.
-Selezioniamo il blocco _On Coin Collect_ ed aggiungiamo il comando _Variable > Set Variable_, che ci permette di assegnare un valore ad una variabile.
-La variabile in questione è _TotalPoints_ cui dobbiamo aggiungere (_+=_) ogni volta che questo blocco viene eseguito i _PointsPerCoin_.
+We already know when a coin has been collected... so we are now ready to assign points.
+Select the _On Coin Collect_ block and add a _Variable > Set Variable_ command, that let us assign a value to a variable.
+Set the variable to _TotalPoints_, select _+=_ as the operator (adds a value to the variable) and _PointsPerCoin_ as the value.
 
-![Assegnare una Variabile](../../images/lesson03/pic05_set_variable.png "Assegnare una Variabile")
+![Setting a Variable](../../images/lesson03/pic05_set_variable.png "Setting a Variable")
 
-Salviamo e lanciamo la scena: ogni volta che raccoglieremo una moneta, la nostra variabile _TotalPoints_ verrà aggiornata.
+Save the scene and play it: each time a coin is collected, _TotalPoints_ will be updated.
 
-![Testare la Scena](../../images/lesson03/pic06_variable_in_play.png "Testare la Scena")
+![Testing the Scene](../../images/lesson03/pic06_variable_in_play.png "Testing the Scene")
 
-## Visualizzare i Punti nella UI
+## Show Points in the UI
 
-L'ultima cosa che ci rimane da fare, è quella di visualizzare i punti nella UI: useremo, per comodità, lo stesso campo di testo che abbiamo utilizzato per mostrare il messaggio di benvenuto.
+The last thing to do is to show in the UI the updated points the player has gained (we'll use the same text element as the one used for the welcome message).
 
-Sempre con il blocco _On Coin Collect_ selezionato, aggiungiamo il comando _UI > SetText_, assegnamo a _Target Text Object_ il _Text_ in scena ed inseriamo il seguente testo:
+With the _On Coin Collect_ block selected, add a _UI > SetText_ command, drag the _Text_ element in the _Hierarchy_ panel into the _Target Text Object_ field, and add the following text:
 
 ```{$TotalPoints} Punti````
 
-> La dicitura _{$nome-della-variabile}_ sostituisce, durante il gioco, il valore della variabile nel testo.
+> The syntax _{$variable-name}_ interpolates, during play, the variable value in the text.
 
-![Aggiornare la UI](../../images/lesson03/pic07_update_ui.png "Aggiornare la UI")
+![Updating the UI](../../images/lesson03/pic07_update_ui.png "Updating the UI")
 
