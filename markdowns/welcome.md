@@ -2,6 +2,8 @@
 
 These lessons are aimed at using [Unity3D](https://unity3d.com/) with [Fungus](http://fungusgames.com/) in a 3D environment.
 
+> An italian translation of this tutorial can be found here: [Tutorial - Unity3D e Fungus](https://tech.io/playgrounds/10655/tutorial-unity3d-e-fungus-pickups/)
+
 >For questions, bug reports and _similia_ you can find me here: [marcosecchi.it](http://marcosecchi.it)
 
 ## Prerequisites
@@ -12,7 +14,4 @@ During the lessons I'll use [Fungus](http://fungusgames.com/), an open-source pl
 
 > The Unity version used for the tutorial is **2017.1.1f1**, while the Fungus version is **3.7** (the axeples are not compatible with previous versione of Fungus).
 
-## Italian Version
-
-An italian translation of this tutorial can be found here: [Tutorial - Unity3D e Fungus](https://tech.io/playgrounds/10655/tutorial-unity3d-e-fungus-pickups/)
 
